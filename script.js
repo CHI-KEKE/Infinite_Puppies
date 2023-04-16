@@ -10,7 +10,7 @@ let ImageLoadedNumber = 0;
 // the Unsplash API set
 const Initialcount = 5;
 const APIKEY = "O6pWEIicFDqroOzuo3_xv8cu342Rc-FsV-GWQqRddg0";
-let APIURL = `https://api.unsplash.com/photos/random/?client_id=${APIKEY}&count=${Initialcount}`;
+let APIURL = `https://api.unsplash.com/photos/random/?client_id=${APIKEY}&count=${Initialcount}&query=puppy`;
 
 /////Short Functions!///////////////////////////////////////////////////////
 const setEachImageAttributes = function(element,attributes){
