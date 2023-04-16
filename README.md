@@ -2,7 +2,8 @@
 
 ## Intro
 This is a website demo I created based on the lectures of "JavaScript Web Projects" course from Zero To Mastery, as they mentioned in the end of the course,
-I try to organize the code more understandable.
+I try to organize the code more understandable.<br><br>
+The goal of the couse is to learn how to make an infinite scroll of a web page.
 <br><br><br>
 ![image](https://user-images.githubusercontent.com/113175990/232266463-39259968-781a-4b2b-903b-586116be09d2.png)
 
