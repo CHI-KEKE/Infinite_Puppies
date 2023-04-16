@@ -8,7 +8,7 @@ let NeedToGrabImages = 0;
 let ImageLoadedNumber = 0;
 
 // the Unsplash API set
-const Initialcount = 5;
+const Initialcount = 10;
 const APIKEY = "O6pWEIicFDqroOzuo3_xv8cu342Rc-FsV-GWQqRddg0";
 let APIURL = `https://api.unsplash.com/photos/random/?client_id=${APIKEY}&count=${Initialcount}&query=puppy`;
 
@@ -23,7 +23,7 @@ const LoadAllDone = function(){
     AllLoaded = true;
     loader.hidden = true;
     let pagecount = 30;
-    APIURL = `https://api.unsplash.com/photos/random/?client_id=${APIKEY}&count=${pagecount}`;
+    APIURL = `https://api.unsplash.com/photos/random/?client_id=${APIKEY}&count=${pagecount}&query=puppy`;
 }
 
 const ImageLoadCondition = function () {
