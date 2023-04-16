@@ -38,16 +38,41 @@ h1{
   transform: translate(-50%,-50%);
 }
 
-.image-container{
-  margin: 10px 30%;
+.image-container {
+  margin: 10px 15%;
+  columns: 3;
+  column-gap: 0.5rem;
+  overflow: hidden;
 }
 
-.image-container img{
+.image-container img {
+  border-radius: 5px;
   width: 100%;
   margin-top: 5px;
+  transition: transform .7s ease;
 }
 
+.image-container img:hover {
+  transform: scale(1.1);
+}
 
+.unsplash-link {
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(17, 7, 7);
+}
+.unsplash-link:visited {
+  text-decoration: none;
+  color: rgb(17, 7, 7);
+}
+.unsplash-link:hover {
+  text-decoration: none;
+  color: rgb(17, 7, 7);
+}
+.unsplash-link:active {
+  text-decoration: none;
+  color: rgb(17, 7, 7);
+}
 /* Media Query : Large Smartphone */
 
 @media screen and (max-width: 600px){
